@@ -19,7 +19,7 @@ export default defineConfig({
       '@src/': new URL('./src/', import.meta.url).pathname,
     },
   },
-  base: '/KoalaClient/',
+  base: './',
   optimizeDeps: {
     include: ['@chengsokdara/use-whisper > lamejs'],
   },
